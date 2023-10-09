@@ -1,6 +1,11 @@
 #ifndef _TOKENIZER_
 #define _TOKENIZER_
 
+/* Returns the length of a string*/
+int string_length(char* s);
+
+/* Returns the length of a token*/
+int token_length(char *s);
 
 /* Return true (non-zero) if c is a whitespace characer
    ('\t' or ' ').  
